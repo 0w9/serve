@@ -1,14 +1,14 @@
 # Serve ⚡️
 
-> This is nothing to be used in production, just playing around in this.
+> This is nothing to be used in production, just playing around.
 
-This repo has a frontend and a backend (in "server"). The backend just has a `GET` to `/` executed from the frontend. The frontend then loads the returned HTML.
+This repo has a front and backend (in `server`). The backend has a `GET` to `/` executed (fetched) from the frontend. The frontend then loads the returned HTML.
 
-Here's the plans:
+Here are the plans:
 
-- [X] Create a basic frontend to fetch HTML from backend
+- [X] Create a basic frontend to fetch HTML from the backend
 - [ ] Support scripts in the returned HTML
-- [ ] Add a support for components
-- [ ] Write an internal libary in it
+- [ ] Add support for components
+- [ ] Write an internal library in it
 - [ ] Create a full-stack app with it
 - [X] Have fun and learn
