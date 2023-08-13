@@ -1,0 +1,17 @@
+
+<html>
+    <script>
+        function render() {
+            fetch('http://localhost:6420', { cache: "no-cache"})
+            .then(response => response.text())
+            .then(html => {
+                var parser = new DOMParser();
+            	var doc = parser.parseFromString(html, 'text/html');
+                document.body.innerHTML = doc.body.innerHTML
+            })
+        }
+
+        // execute "render" onLoad
+        render()
+    </script>
+</html>

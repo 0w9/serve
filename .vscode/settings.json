@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "editorGutter.background": "#131521",
+        "editor.background": "#131521",
+        "activityBar.background": "#511541",
+        "titleBar.activeBackground": "#721E5B",
+        "titleBar.activeForeground": "#FDF8FC",
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    }
+}
